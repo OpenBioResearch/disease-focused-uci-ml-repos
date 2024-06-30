@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This repo contains two jupyter notebooks which analyze clinicopathologic features related to two distinct diseases:  thyroid cancer recurrence and glioma grading.  Both projects leverage machine learning models to identify critical factors influencing disease outcomes. These Jupyter notebooks were created using Google Colab.
+This repo contains two Jupyter notebooks which analyze clinicopathologic features related to two distinct diseases:  thyroid cancer recurrence and glioma grading.  Both projects leverage machine learning models to identify critical factors influencing disease outcomes. These Jupyter notebooks were created using Google Colab.
 
 ## Notebooks
 
@@ -27,7 +27,7 @@ In a Jupyter notebook, install ucimlrepo package with the command:
    ```
 Import the thyroid recurrence dataset:
 
-```bash
+```python
 from ucimlrepo import fetch_ucirepo 
 
 # fetch dataset 
@@ -45,7 +45,7 @@ print(differentiated_thyroid_cancer_recurrence.variables)
 ```
 Import the glioma grading dataset:
 
-```bash
+```python
 from ucimlrepo import fetch_ucirepo 
   
 # fetch dataset 
@@ -62,27 +62,12 @@ print(glioma_grading_clinical_and_mutation_features.metadata)
 print(glioma_grading_clinical_and_mutation_features.variables) 
 ```
 
-The following libraries are required for this project:
-- `pandas`
-- `torch`
-- `matplotlib`
-- `seaborn`
-- `numpy`
-- `requests`
-- `scipy`
-- `xgboost`
-- `tensorflow`
-- `scikit-learn`
+Install dependencies with pip:
 
-You can install these libraries using pip:
 ```bash
 pip install -r requirements.txt
 ```
 
-Please install CatBoost, the gradient boosting library used: 
-```bash
-pip install catboost
-```
 ## License
 
 This dataset is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.
