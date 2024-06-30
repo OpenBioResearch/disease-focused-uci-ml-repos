@@ -22,9 +22,11 @@ To install the ucimlrepo package and dataset you may either access the dataset i
 
 In a Jupyter notebook, install ucimlrepo package with the command:
 
-   ```bash
-   !pip3 install -U ucimlrepo 
-   ```
+```bash
+!pip install -r requirements.txt
+!pip install -U ucimlrepo 
+```
+
 Import the thyroid recurrence dataset:
 
 ```python
@@ -60,12 +62,6 @@ print(glioma_grading_clinical_and_mutation_features.metadata)
   
 # variable information 
 print(glioma_grading_clinical_and_mutation_features.variables) 
-```
-
-Install dependencies with pip:
-
-```bash
-pip install -r requirements.txt
 ```
 
 ## License
