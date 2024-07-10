@@ -1,4 +1,4 @@
-# uci-ml-clinical-explorations
+# disease-focused-uci-ml-repos
 
 ## Project Overview
 
@@ -66,4 +66,4 @@ print(glioma_grading_clinical_and_mutation_features.variables)
 
 ## License
 
-This dataset is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.
+This dataset is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.  Original article: https://doi.org/10.1007/s00405-023-08299-w
