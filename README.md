@@ -2,13 +2,16 @@
 
 ## Project Overview
 
-This repo contains two Jupyter notebooks which analyze clinicopathologic features related to two distinct diseases:  thyroid cancer recurrence and glioma grading.  Both projects leverage machine learning models to identify critical factors influencing disease outcomes. These Jupyter notebooks were created using Google Colab.
+This repo contains two Jupyter notebooks which analyze clinicopathologic features related to thyroid cancer recurrence and glioma grading.  Both projects leverage machine learning models to predict critical factors influencing disease outcomes. These Jupyter notebooks were created using Google Colab. 
+
+## Summary of Findings and Insights
+Final reports were generated for both ML projects, providing a comprehensive overview of the classification performance, model evaluation, and key insights discovered during the analysis.
 
 ## Notebooks
 
 1. **Thyroid Cancer Recurrence Analysis using CatBoost**:
    - **Notebook**: `thyroid_cancer_catboost.ipynb`
-   - **Description**: This notebook leverages the CatBoost gradient boosting library to analyze clinicopathologic features and identify the most critical factors influencing thyroid cancer recurrence.
+   - **Description**: This notebook leverages the CatBoost gradient boosting library to analyze clinicopathologic features and predict critical factors influencing thyroid cancer recurrence.
    - **Dataset**: [Differentiated Thyroid Cancer Recurrence](https://archive.ics.uci.edu/ml/datasets/Differentiated+Thyroid+Cancer+Recurrence) from the UCI Machine Learning Repository.
 
 2. **Glioma Grading using PyTorch**:
@@ -67,3 +70,7 @@ print(glioma_grading_clinical_and_mutation_features.variables)
 ## License
 
 This dataset is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.  Original article: https://doi.org/10.1007/s00405-023-08299-w
+
+Citations/Acknowledgements
+If you use this dataset, please cite:
+Tasci, E., Zhuge, Y., Kaur, H., Camphausen, K., & Krauze, A. V. (2022). Hierarchical Voting-Based Feature Selection and Ensemble Learning Model Scheme for Glioma Grading with Clinical and Molecular Characteristics. International Journal of Molecular Sciences, 23(22), 14155.
