@@ -19,9 +19,9 @@ Final reports were generated for all ML projects, providing a comprehensive over
    - **Dataset**: [Differentiated Thyroid Cancer Recurrence](https://archive.ics.uci.edu/ml/datasets/Differentiated+Thyroid+Cancer+Recurrence) from the UCI Machine Learning Repository.
 
 2. **Thyroid Cancer Recurrence Analysis using XGBoost**:
-- **Notebook**: `thyroid_cancer_recurrence_xgboost.ipynb`
-- **Description**: This notebook leverages the XGBoost gradient boosting library to analyze clinicopathologic features and predict critical factors influencing thyroid cancer recurrence.
-- **Dataset**: [Differentiated Thyroid Cancer Recurrence](https://archive.ics.uci.edu/ml/datasets/Differentiated+Thyroid+Cancer+Recurrence) from the UCI Machine Learning Repository.
+	- **Notebook**: `thyroid_cancer_recurrence_xgboost.ipynb`
+	- **Description**: This notebook leverages the XGBoost gradient boosting library to analyze clinicopathologic features and predict critical factors influencing thyroid cancer recurrence.
+	- **Dataset**: [Differentiated Thyroid Cancer Recurrence](https://archive.ics.uci.edu/ml/datasets/Differentiated+Thyroid+Cancer+Recurrence) from the UCI Machine Learning Repository.
 
 3. **Glioma Grading using PyTorch**:
    - **Notebook**: `uci_glioma_grading.ipynb`
