@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This repo contains three Jupyter notebooks which analyze clinicopathologic features related to thyroid cancer recurrence and glioma grading.  These projects leverage machine learning models to predict critical factors influencing disease outcomes.  A comparison of the performance and flexibilityof CatBoost and XGBoost gradient boosting frameworks was performed. 
+This repo contains three Jupyter notebooks which analyze clinicopathologic features related to thyroid cancer recurrence and glioma grading.  These projects leverage machine learning models to predict critical factors influencing disease outcomes.  A comparison of the performance and flexibility of CatBoost and XGBoost gradient boosting frameworks was performed. 
 
 The Glioma Grading Project has early stopping incorporated through monitoring the validation loss during training, and halting the training process when validation loss did not improve for a specified number of consecutive epochs.  
 
@@ -18,10 +18,10 @@ Final reports were generated for all ML projects, providing a comprehensive over
    - **Description**: This notebook leverages the catboost gradient boosting library to analyze clinicopathologic features and predict critical factors influencing thyroid cancer recurrence.
    - **Dataset**: [Differentiated Thyroid Cancer Recurrence](https://archive.ics.uci.edu/ml/datasets/Differentiated+Thyroid+Cancer+Recurrence) from the UCI Machine Learning Repository.
 
-   2. **Thyroid Cancer Recurrence Analysis using XGBoost**:
-   - **Notebook**: `thyroid_cancer_recurrence_xgboost.ipynb`
-   - **Description**: This notebook leverages the XGBoost gradient boosting library to analyze clinicopathologic features and predict critical factors influencing thyroid cancer recurrence.
-   - **Dataset**: [Differentiated Thyroid Cancer Recurrence](https://archive.ics.uci.edu/ml/datasets/Differentiated+Thyroid+Cancer+Recurrence) from the UCI Machine Learning Repository.
+2. **Thyroid Cancer Recurrence Analysis using XGBoost**:
+- **Notebook**: `thyroid_cancer_recurrence_xgboost.ipynb`
+- **Description**: This notebook leverages the XGBoost gradient boosting library to analyze clinicopathologic features and predict critical factors influencing thyroid cancer recurrence.
+- **Dataset**: [Differentiated Thyroid Cancer Recurrence](https://archive.ics.uci.edu/ml/datasets/Differentiated+Thyroid+Cancer+Recurrence) from the UCI Machine Learning Repository.
 
 3. **Glioma Grading using PyTorch**:
    - **Notebook**: `uci_glioma_grading.ipynb`
