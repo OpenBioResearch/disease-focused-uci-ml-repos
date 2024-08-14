@@ -6,7 +6,8 @@ This repo contains three Jupyter notebooks which analyze clinicopathologic featu
 
 The Glioma Grading Project has early stopping incorporated through monitoring the validation loss during training, and halting the training process when validation loss did not improve for a specified number of consecutive epochs.  
 
-These Jupyter notebooks were created using Google Colab and also tested using GitHub Codespaces.
+These Jupyter notebooks were created and tested using Google Colab and GitHub Codespaces, 
+specifically with Python 3.10.
 
 ## Summary of Findings and Insights
 Final reports were generated for all ML projects, providing a comprehensive overview of the classification performance, model evaluation, and key insights discovered during the analysis.
